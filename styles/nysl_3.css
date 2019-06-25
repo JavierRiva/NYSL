@@ -1,0 +1,229 @@
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url("imagenes/design3_image1_bis.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    border-style: solid;
+    border-color: gray;
+    font-size: 140%;
+    text-transform: uppercase;
+    color: seagreen;
+    line-height: 250px;
+    text-shadow: 3px 3px black;
+    text-indent: 30px;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-image: radial-gradient(lightyellow, greenyellow);
+    color: darkslategray;
+}
+
+.titulo {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: darkseagreen;
+    text-align: center;
+    margin: 0px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.titulo h2 {
+    color: darkslategrey;
+    text-shadow: 2px 2px gray;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 10px;
+}
+
+#logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 125px;
+    top: -240px;
+}
+
+nav {
+    position: absolute;
+    background-image: radial-gradient(gainsboro, skyblue);
+    right: 0px;
+    width: 30%;
+    height: 100%;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.links li {
+    width: 300px;
+    height: 70px;
+    text-align: left;
+    padding-left: 0px;
+    margin: 0;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 120%;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.active {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.mail {
+    color: blue;
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+    width: 65%;
+    height: auto;
+}
+
+form {
+    position: relative;
+    width: 65%;
+    height: auto;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+legend {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+label {
+    line-height: 40px;
+}
+
+.bold-label {
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+button {
+    background-color: gainsboro;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+p {
+    padding-left: 30px;
+}
+
+.form-paragraph {
+    padding-left: 0px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#circle-item {
+    list-style-type: circle;
+}
+
+.date {
+    padding-left: 30px;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.text {
+    padding-left: 30px;
+}
+
+.parrafo {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.rules-title {
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.list-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.letter-list {
+    list-style-type: lower-latin;
+}
+
+.item-title {
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.contact-info {
+    display: inline-flex;
+}
+
+#comment {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+thead {
+    background-color: lightsteelblue;
+}
+
+th,
+td {
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    padding: 10px 15px;
+}
+
+iframe {
+    width: 300px;
+    height: 150px;
+    border: none;
+}
+
+.locations {
+    width: 800px;
+}
+
+.item-date,
+.item-teams,
+.item-time {
+    text-align: center;
+}
